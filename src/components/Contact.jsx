@@ -45,21 +45,21 @@ const Contact = () => {
       });
       const checkbox = e.target.querySelector('input[type="checkbox"]');
       if (checkbox) {
-        checkbox.checked = false; // Reset checkbox
+        checkbox.checked = false;
       }
-      setErrors({}); // Clear errors
+      setErrors({});
     }
   };
   return (
     <div id="contact">
-      <div className="contact-text">
-        <h5 className="touch">Get In Touch</h5>
-        <div className="contact-me">
-          <h3>Contact me</h3>
+      <div className="contact-text ">
+        <h5 className="touch m-0">Get In Touch</h5>
+        <div className="contact-me ">
+          <h3 className="m-0">Contact me</h3>
 
-          <p>
+          <p className="m-0">
             Let’s collaborate! Send me a message, and let’s make something great
-            together.{" "}
+            together.
           </p>
         </div>
       </div>

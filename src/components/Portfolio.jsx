@@ -24,7 +24,7 @@ const Portfolio = () => {
       </div>
       <div className="portfolio-text">
         <div className="port">
-          <img src={firstport} alt="" />
+          <img src={firstport} alt="" className="port-image" />
           <div className="port-text">
             <div className="porto">
               <h4 className="m-0">Ahuse</h4>
@@ -41,7 +41,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="port">
-          <img src={secport} alt="" />
+          <img src={secport} alt="" className="port-image"/>
           <div className="port-text">
             <div className="porto">
               <h4 className="m-0">App Dashboard</h4>
@@ -59,7 +59,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="port">
-          <img src={thirdport} alt="" />
+          <img src={thirdport} alt="" className="port-image" />
           <div className="port-text">
             <div className="porto">
               <h4 className="m-0">Easy Rent</h4>

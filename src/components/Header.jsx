@@ -7,7 +7,7 @@ const Header = () => {
     <div>
       <header id="header" className="d-flex">
         <div className="header-text">
-          <h4 className="m-0">Hey, I am Jessica</h4>
+          <h4 className="">Hey, I am Jessica</h4>
           <h2 className="m-0">
             I develop dynamic and User-Centered Web Applications
           </h2>

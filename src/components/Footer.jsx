@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        <div className="d-flex justify-content-between align-items-center">
+        <div className="d-flex justify-content-between  main-foot">
           <div className="logo d-flex align-items-center">
             <img src={logo} alt="" />
             <h4 className="m-0">JessDev,</h4>
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="d-flex justify-content-between made">
-          <h5>Made with 💖 by Jessica</h5>
+          <h5 className="m-0">Made with 💖 by Jessica</h5>
           <div>
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
