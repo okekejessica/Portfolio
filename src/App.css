@@ -117,7 +117,7 @@ header {
   width: 170.67px;
   margin-top: 42.66px !important;
   background-color: #5e3bee;
-  padding: 18.67px;
+  padding: 18.67px 20px;
   border: none;
   border-radius: 5.33px;
   font-size: 21.33px;
@@ -645,6 +645,276 @@ footer {
   align-items: center;
 }
 
+@media (min-width: 501px) and (max-width: 1024px) {
+  nav {
+    padding: 0 21.33px;
+    height: 100px;
+  }
+
+  .navbar {
+    gap: 20px;
+  }
+
+  .navbar-links {
+    display: flex;
+    gap: 40px;
+    height: 100px;
+  }
+
+  .navbar a {
+    font-size: 18px;
+  }
+
+  .but-1 {
+    margin-left: auto;
+    padding: 15px 30px;
+  }
+
+  /* header */
+
+  header {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 30px 20px;
+  }
+
+  .header-text {
+    text-align: center;
+  }
+
+  .header-text h4 {
+    font-size: 24px;
+  }
+
+  .header-text h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .header-text p {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 20px;
+  }
+
+  .header-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 15px !important;
+  }
+
+  .header-image img {
+    width: 500px;
+    height: auto;
+  }
+
+  /* skills */
+
+  .skills {
+    padding: 40px 21.33px;
+    gap: 30px;
+  }
+
+  .skills-text h4 {
+    font-size: 24px; /* Adjust font size for the subtitle */
+    text-align: center;
+  }
+
+  .skills-text h2 {
+    font-size: 46px;
+    text-align: center;
+  }
+
+  .skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .first-skill {
+    gap: 15px;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .first-skill-text {
+    gap: 15px;
+  }
+
+  .first-skill-text h5 {
+    font-size: 25px;
+  }
+
+  .first-skill-text p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* about */
+
+  #about {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 21.33px;
+    gap: 30px;
+  }
+
+  .aboutme img {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .first-abttext p {
+    font-size: 20px;
+  }
+
+  .first-abttext h4 {
+    font-size: 28px;
+    line-height: 30px;
+    margin: 10px 0;
+  }
+
+  .about-para {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 0 20px;
+  }
+
+  /* portfolio */
+
+  #portfolio {
+    padding: 40px 21.33px;
+    gap: 45px;
+  }
+
+  .portfolio-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .port-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .port-text {
+    gap: 20px;
+  }
+
+  .port-text h4 {
+    font-size: 30px;
+  }
+
+  .port-text p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .web h5 {
+    margin-right: 5px;
+  }
+
+  .web img {
+    width: 20px;
+    height: auto;
+  }
+
+  /* testimonials */
+
+  #testimonial {
+    padding: 40px 21.33px;
+    text-align: center;
+    gap: 65px;
+  }
+
+  .testimonial-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .client h3 {
+    line-height: 40px;
+  }
+
+  .test {
+    max-width: 1000px;
+    gap: 25px;
+  }
+
+  .test p {
+    text-align: left;
+  }
+
+  .avatar h5 {
+    font-size: 20px;
+  }
+
+  .avatar p {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  /* contact */
+
+  #contact {
+    padding: 40px 21.33px;
+    gap: 20px;
+  }
+
+  .contact-text {
+    text-align: center;
+  }
+
+  .form {
+    max-width: 1000px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .details {
+    width: 100%;
+  }
+
+  .message textarea {
+    width: 500px;
+  }
+
+  /* footer */
+  footer {
+    padding: 30px 21.33px;
+    gap: 40px;
+  }
+
+  .foot-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .made {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
 @media (max-width: 500px) {
   nav {
     padding: 0 21.34px;
@@ -1053,274 +1323,5 @@ footer {
   .made div a {
     font-size: 14px;
     line-height: 20px;
-  }
-}
-
-@media (min-width: 501px) and (max-width: 1024px) {
-  nav {
-    padding: 0 21.33px;
-    height: 100px;
-  }
-
-  .navbar {
-    gap: 20px;
-  }
-
-  .navbar-links {
-    display: flex;
-    gap: 40px;
-  }
-
-  .navbar a {
-    font-size: 18px;
-  }
-
-  .but-1 {
-    margin-left: auto;
-    padding: 15px 30px;
-  }
-
-  /* header */
-
-  header {
-    flex-direction: column-reverse;
-    align-items: center;
-    padding: 30px 20px;
-  }
-
-  .header-text {
-    text-align: center;
-  }
-
-  .header-text h4 {
-    font-size: 24px;
-  }
-
-  .header-text h2 {
-    font-size: 40px;
-    line-height: 48px;
-  }
-
-  .header-text p {
-    font-size: 18px;
-    line-height: 28px;
-    padding: 0 20px;
-  }
-
-  .header-button {
-    padding: 12px 24px;
-    font-size: 18px;
-    margin: 0 auto;
-    margin-top: 15px !important;
-  }
-
-  .header-image img {
-    width: 500px;
-    height: auto;
-  }
-
-  /* skills */
-
-  .skills {
-    padding: 40px 21.33px;
-    gap: 30px;
-  }
-
-  .skills-text h4 {
-    font-size: 24px; /* Adjust font size for the subtitle */
-    text-align: center;
-  }
-
-  .skills-text h2 {
-    font-size: 46px;
-    text-align: center;
-  }
-
-  .skill {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .first-skill {
-    gap: 15px;
-    max-width: 350px;
-    margin: 0 auto;
-  }
-
-  .first-skill-text {
-    gap: 15px;
-  }
-
-  .first-skill-text h5 {
-    font-size: 25px;
-  }
-
-  .first-skill-text p {
-    font-size: 16px;
-    line-height: 24px;
-  }
-
-  /* about */
-
-  #about {
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 21.33px;
-    gap: 30px;
-  }
-
-  .aboutme img {
-    width: 80%;
-    max-width: 500px;
-    height: auto;
-  }
-
-  .about-text {
-    text-align: center;
-  }
-
-  .first-abttext p {
-    font-size: 20px;
-  }
-
-  .first-abttext h4 {
-    font-size: 28px;
-    line-height: 30px;
-    margin: 10px 0;
-  }
-
-  .about-para {
-    font-size: 20px;
-    line-height: 35px;
-    padding: 0 20px;
-  }
-
-  /* portfolio */
-
-  #portfolio {
-    padding: 40px 21.33px;
-    gap: 45px;
-  }
-
-  .portfolio-text {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-
-  .port-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-
-  .port-text {
-    gap: 20px;
-  }
-
-  .port-text h4 {
-    font-size: 30px;
-  }
-
-  .port-text p {
-    font-size: 24px;
-    line-height: 40px;
-  }
-
-  .web h5 {
-    margin-right: 5px;
-  }
-
-  .web img {
-    width: 20px;
-    height: auto;
-  }
-
-  /* testimonials */
-
-  #testimonial {
-    padding: 40px 21.33px;
-    text-align: center;
-    gap: 65px;
-  }
-
-  .testimonial-grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .client h3 {
-    line-height: 40px;
-  }
-
-  .test {
-    max-width: 1000px;
-    gap: 25px;
-  }
-
-  .test p {
-    text-align: left;
-  }
-
-  .avatar h5 {
-    font-size: 20px;
-  }
-
-  .avatar p {
-    font-size: 18px;
-    text-align: left;
-  }
-
-  /* contact */
-
-  #contact {
-    padding: 40px 21.33px;
-    gap: 20px;
-  }
-
-  .contact-text {
-    text-align: center;
-  }
-
-  .form {
-    max-width: 1000px;
-  }
-
-  .info {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    margin: 0 auto;
-  }
-
-  .details {
-    width: 100%;
-  }
-
-  .message textarea {
-    width: 500px;
-  }
-
-  /* footer */
-  footer {
-    padding: 30px 21.33px;
-    gap: 40px;
-  }
-
-  .foot-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-
-  .made {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
   }
 }
